@@ -1,5 +1,4 @@
 import yappi
-
 from gadpytestprofiler import models
 
 

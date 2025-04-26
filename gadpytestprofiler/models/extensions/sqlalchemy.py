@@ -1,5 +1,4 @@
 import pydantic
-
 from gadpytestprofiler.models.extensions.postgres import Explain
 from gadpytestprofiler.models.python.statistics import Statistics
 

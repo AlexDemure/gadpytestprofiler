@@ -1,11 +1,6 @@
 import asyncio
 import typing
 
-from sqlalchemy.dialects.postgresql import dialect
-from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.sql import Executable
-from sqlalchemy.sql import text
-
 from gadpytestprofiler import contextmanagers
 from gadpytestprofiler import models
 from gadpytestprofiler.utils import garbage
@@ -15,6 +10,10 @@ from gadpytestprofiler.utils import sqlalchemy
 from gadpytestprofiler.utils import statistics
 from gadpytestprofiler.utils import tracemalloc
 from gadpytestprofiler.utils import yappi
+from sqlalchemy.dialects.postgresql import dialect
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.sql import Executable
+from sqlalchemy.sql import text
 
 
 class SqlalchemyProfiler:

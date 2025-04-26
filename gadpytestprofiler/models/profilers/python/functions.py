@@ -1,5 +1,4 @@
 import pydantic
-
 from gadpytestprofiler.models.extensions.psutils import IO
 from gadpytestprofiler.models.extensions.psutils import Network
 from gadpytestprofiler.models.extensions.yappi import Execution
